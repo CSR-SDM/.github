@@ -17,11 +17,8 @@
 
 # CSR - Species Distribution Modelling:
 
-<<<<<<< HEAD
 ### A trait-based framework for mapping plant strategies and habitat suitability from environmental filters including stress and disturbance regimes
 
-=======
->>>>>>> 204049f4533cb2dba543940198ec1f9d892ddf54
 <center>
 <img src="../man/figures/CSR-triangle.png" width="50%"/>
 <figcaption>
