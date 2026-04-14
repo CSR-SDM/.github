@@ -17,11 +17,13 @@
 
 # CSR - Species Distribution Modelling
 
-<br>
-
-![](../man/figures/CSR-triangle.png)
-
-<br>
+<center>
+<img src="../man/figures/CSR-triangle.png" width="50%"/>
+<figcaption>
+<i><b>source:</b>
+<a href="https://triyambak.org/free-resources/gate-life-sciences/pointer/5499">https://triyambak.org</a></i>
+</figcaption>
+</center>
 
 # Background
 
@@ -62,7 +64,7 @@ primary strategies at its extremities:
 
 <div class="figure" style="text-align: center">
 
-<img src="../man/figures/Simplified-version-of-the-CSR-triangle.jpg" alt="Simplified version of the CSR triangle.Arrows indicate increasing importance foreach factor (competition, stress and disturbance) and letters representcompetitive (C), stress tolerant (S) and ruderal (R). Modified from Grime (1979) (Pulsford et al. 2014)" width="95%" />
+<img src="../man/figures/Simplified-version-of-the-CSR-triangle.jpg" alt="Simplified version of the CSR triangle.Arrows indicate increasing importance foreach factor (competition, stress and disturbance) and letters representcompetitive (C), stress tolerant (S) and ruderal (R). Modified from Grime (1979) (Pulsford et al. 2014)" width="50%" />
 <p class="caption">
 Simplified version of the CSR triangle.Arrows indicate increasing
 importance foreach factor (competition, stress and disturbance) and
