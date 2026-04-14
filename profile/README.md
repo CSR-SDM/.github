@@ -15,13 +15,17 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# CSR - Species Distribution Modelling
+# CSR - Species Distribution Modelling:
 
-<br>
+### A trait-based framework for mapping plant strategies and habitat suitability from environmental filters including stress and disturbance regimes
 
-![](../man/figures/CSR-triangle.png)
-
-<br>
+<center>
+<img src="../man/figures/CSR-triangle.png" width="50%"/>
+<figcaption>
+<i><b>source:</b>
+<a href="https://triyambak.org/free-resources/gate-life-sciences/pointer/5499">https://triyambak.org</a></i>
+</figcaption>
+</center>
 
 # Background
 
@@ -62,7 +66,7 @@ primary strategies at its extremities:
 
 <div class="figure" style="text-align: center">
 
-<img src="../man/figures/Simplified-version-of-the-CSR-triangle.jpg" alt="Simplified version of the CSR triangle.Arrows indicate increasing importance foreach factor (competition, stress and disturbance) and letters representcompetitive (C), stress tolerant (S) and ruderal (R). Modified from Grime (1979) (Pulsford et al. 2014)" width="95%" />
+<img src="../man/figures/Simplified-version-of-the-CSR-triangle.jpg" alt="Simplified version of the CSR triangle.Arrows indicate increasing importance foreach factor (competition, stress and disturbance) and letters representcompetitive (C), stress tolerant (S) and ruderal (R). Modified from Grime (1979) (Pulsford et al. 2014)" width="50%" />
 <p class="caption">
 Simplified version of the CSR triangle.Arrows indicate increasing
 importance foreach factor (competition, stress and disturbance) and
@@ -80,9 +84,9 @@ R/SR).
 
 # Bayesian framework for modelling plant CSR strategy
 
-I will model plant ecological strategies in the CSR framework (sensu
-Grime) as compositional data, using a **Bayesian Dirichlet regression**
-to relate each species’ strategy to its environmental context, including
+We model plant ecological strategies in the CSR framework (sensu Grime)
+as compositional data, using a **Bayesian Dirichlet regression** to
+relate each species’ strategy to its environmental context, including
 stress and disturbance regimes.  The input data consists of vectors
 $\mathbf{y}_i=(C_{i},S_{i},R_{i})$, where $\mathbf{y}_i \in \Delta^{2}$
 is a ternary vector representing the relative contributions of
