@@ -1,7 +1,7 @@
 ---
 output: github_document
-    includes:
-      in_header: preamble.tex
+includes:
+  in_header: preamble.tex
   html_document: null
 header-includes:
   - \usepackage{amsmath}
