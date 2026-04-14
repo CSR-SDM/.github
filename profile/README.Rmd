@@ -29,11 +29,7 @@ knitr::opts_chunk$set(
 
 # CSR - Species Distribution Modelling
 
-<br>
-
-![](../man/figures/CSR-triangle.png)
-
-<br>
+<img src="../man/figures/CSR-triangle.png" width="70%"/>
 
 # Background
 
@@ -55,7 +51,7 @@ Based on the C, S, and R values of each species, plant ecological strategy could
 
 # Bayesian framework for modelling plant CSR strategy
 
-I will model plant ecological strategies in the CSR framework (sensu Grime) as compositional data, using a **Bayesian Dirichlet regression** to relate each species' strategy to its environmental context, including stress and disturbance regimes.  The input data consists of vectors $\mathbf{y}_i=(C_{i},S_{i},R_{i})$, where $\mathbf{y}_i \in \Delta^{2}$ is a ternary vector representing the relative contributions of **competitiveness (C)**, **stress-tolerance (S)**, and **ruderalism (R)** for species $i$, with $\sum_k y_{ik} = 1$. We assumed these compositions were drawn from a **Dirichlet distribution** with a concentration parameter $\boldsymbol{\alpha} = (\alpha_1,\alpha_2,\alpha_3)$ parametrised to reflect environmental effects on both the **mean strategy** and the **strength of environmental filtering**:
+I will model plant ecological strategies in the CSR framework (sensu Grime) as compositional data, using a **Bayesian Dirichlet regression** to relate each species' strategy to its environmental context, including stress and disturbance regimes.  The input data consists of vectors $ \mathbf{y}*i=(C*{i},S\_{i},R\_{i}) $, where $ \mathbf{y}\_i \in \Delta\^{2} \$ is a ternary vector representing the relative contributions of **competitiveness (C)**, **stress-tolerance (S)**, and **ruderalism (R)** for species $i$, with $\sum_k y_{ik} = 1$. We assumed these compositions were drawn from a **Dirichlet distribution** with a concentration parameter $\boldsymbol{\alpha} = (\alpha_1,\alpha_2,\alpha_3)$ parametrised to reflect environmental effects on both the **mean strategy** and the **strength of environmental filtering**:
 
 $$
 \mathbf{y}_i \sim \text{Dirichlet}(\boldsymbol{\alpha}_s), \quad \text{with} \quad \boldsymbol{\alpha}_s = \phi_s \cdot \boldsymbol{\mu}_s
