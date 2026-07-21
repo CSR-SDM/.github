@@ -21,11 +21,8 @@ check.install.packages <- function(list.packages){
 check.install.packages(list.packages)
 
 ### Set up directories - Change as appropriate
-data_dir <- "C://Users/tomhe/Dropbox/Work/Jobs/WCMC/Work/Plant trait SDMs/Data"
-output_dir <- "C://Users/tomhe/Dropbox/Work/Jobs/WCMC/Work/Plant trait SDMs/Output"
-#data_dir <- "C://Users/tomm/Dropbox/Work/Jobs/WCMC/Work/Plant trait SDMs/Data"
-#output_dir <- "C://Users/tomm/Dropbox/Work/Jobs/WCMC/Work/Plant trait SDMs/Output"
-
+data_dir <- "O://f01_projects_active/Global/p09623_CreatingFoundationSystems4EnvironmentalAI/work_in_progress/Progress July 2026/Data"
+output_dir <- "O://f01_projects_active/Global/p09623_CreatingFoundationSystems4EnvironmentalAI/work_in_progress/Progress July 2026/Output"
 
 ###############################
 ## 2 ## Load and manage data ##
