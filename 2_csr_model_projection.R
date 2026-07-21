@@ -1,7 +1,8 @@
-##########################################################################
-## Script for projecting species' CSR strategy over environmental space ##
-## and comparing with independent species' occurrences ###################
-##########################################################################
+###############################################################################
+## Script for projecting plant species CSR strategy over environmental space ##
+## and comparing with independent species' occurrences ########################
+## Tom Mason, July 2026 ####################################################### 
+###############################################################################
 
 #############################
 ## 1 ## Set up environment ##
